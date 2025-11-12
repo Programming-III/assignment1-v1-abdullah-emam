@@ -1,16 +1,12 @@
-#ifndef REPTILE_H
-#define REPTILE_H
-
+#ifndef UNTITLED1_REPTILE_H
+#define UNTITLED1_REPTILE_H
 #include "Animal.h"
 
-//define reptile class here
-
-
-
-
-
-
-
-
-
+class Reptile : public Animal
+{
+    private:
+    bool isVenomous;
+    public:
+    Reptile(int age, string na, bool isV);
+};
 #endif
